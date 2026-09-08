@@ -20,7 +20,7 @@ they don't behave as expected.
 | Domain Controller  | Windows Server (AD DS, DNS)             |
 | Domain             | cloudlab.local                          |
 | Client             | Windows 10                              |
-| Networking         | Internal Network (isolated lab segment) |
+| Networking         | Bridged Adapter (VMs on home LAN, visible to router) |
 
 ## What this demonstrates
 
@@ -42,6 +42,24 @@ they don't behave as expected.
 - `05-troubleshooting-log.md` — Real issues hit and how they were resolved
 - `screenshots/` — Supporting screenshots for each stage
 
-## Status
+cloudlab.local
+├── IT-Department → IT-Admins group
+├── HR → HR-Team group
+├── Engineering → Engineering-Team group
+└── Finance → Finance-Team group
 
-🚧 In progress — actively being built and documented.
+
+## Scenarios Practiced
+
+- Password reset
+- Account lockout and unlock
+- New user onboarding
+- User offboarding
+- GPO troubleshooting
+- Remote desktop support
+
+## Author
+
+Kwasi Serebuor
+[LinkedIn](https://www.linkedin.com/in/Kwasi-Serebuor) 
+[GitHub](https://github.com/serKwesi)
